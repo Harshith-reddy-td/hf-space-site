@@ -3,105 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Pages - Hugging Face Space Redirect</title>
+    <title>Text2Audio - Hugging Face Space</title>
     <style>
         body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
             font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 20px;
-            line-height: 1.6;
         }
-        .container {
-            background: #f4f4f4;
-            border-radius: 8px;
-            padding: 30px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        h1 { color: #333; }
-        code {
-            background: #e8e8e8;
-            padding: 2px 6px;
-            border-radius: 3px;
-            font-family: monospace;
-        }
-        .info-box {
-            background: #e3f2fd;
-            border-left: 4px solid #2196f3;
-            padding: 15px;
-            margin: 20px 0;
-        }
-        .redirect-example {
-            background: #fff3cd;
-            border-left: 4px solid #ffc107;
-            padding: 15px;
-            margin: 20px 0;
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>🚀 GitHub Pages Site for Hugging Face Space Mapping</h1>
-        
-        <div class="info-box">
-            <h2>📍 Site Information</h2>
-            <p><strong>GitHub Pages URL:</strong> <code>https://harshith-reddy-td.github.io/hf-space-site/</code></p>
-            <p><strong>Repository:</strong> <code>Harshith-reddy-td/hf-space-site</code></p>
-            <p><strong>Status:</strong> Active and ready to use</p>
-        </div>
-
-        <h2>🔧 Configuration Options</h2>
-        
-        <h3>Option 1: Direct Redirect (Meta Refresh)</h3>
-        <p>To automatically redirect visitors to your Hugging Face Space, replace the meta tag in the head section:</p>
-        <pre><code>&lt;meta http-equiv="refresh" content="0; url=https://huggingface.co/spaces/YOUR-USERNAME/YOUR-SPACE" /&gt;</code></pre>
-        
-        <h3>Option 2: JavaScript Redirect</h3>
-        <p>Add this script before the closing body tag:</p>
-        <pre><code>&lt;script&gt;
-    window.location.href = 'https://huggingface.co/spaces/YOUR-USERNAME/YOUR-SPACE';
-&lt;/script&gt;</code></pre>
-        
-        <h3>Option 3: Embed Hugging Face Space (iframe)</h3>
-        <p>Embed the Space directly on this page:</p>
-        <pre><code>&lt;iframe src="https://YOUR-USERNAME-YOUR-SPACE.hf.space" width="100%" height="800px" style="border:none;"&gt;&lt;/iframe&gt;</code></pre>
-        
-        <div class="redirect-example">
-            <h3>⚠️ Example Implementation</h3>
-            <p>Uncomment the meta tag below in the HTML to enable automatic redirect:</p>
-            <code>&lt;!-- &lt;meta http-equiv="refresh" content="0; url=https://huggingface.co/spaces/YOUR-USERNAME/YOUR-SPACE" /&gt; --&gt;</code>
-        </div>
-
-        <h2>📝 Steps to Map Your Hugging Face Space</h2>
-        <ol>
-            <li>Create or identify your Hugging Face Space (e.g., <code>https://huggingface.co/spaces/username/spacename</code>)</li>
-            <li>Edit this <code>index.html</code> file in the repository</li>
-            <li>Add one of the redirect methods above with your Space URL</li>
-            <li>Commit the changes</li>
-            <li>Wait 1-2 minutes for GitHub Pages to rebuild</li>
-            <li>Visit <code>https://harshith-reddy-td.github.io/hf-space-site/</code> to see your Space</li>
-        </ol>
-
-        <h2>🔗 Custom Domain (Optional)</h2>
-        <p>To use a custom domain:</p>
-        <ol>
-            <li>Go to repository Settings → Pages</li>
-            <li>Enter your custom domain in the "Custom domain" field</li>
-            <li>Add DNS records with your domain provider:
-                <ul>
-                    <li>For apex domain (example.com): A records pointing to GitHub IPs</li>
-                    <li>For subdomain (www.example.com): CNAME record pointing to <code>harshith-reddy-td.github.io</code></li>
-                </ul>
-            </li>
-            <li>Enable "Enforce HTTPS" after DNS propagates</li>
-        </ol>
-
-        <h2>📚 Resources</h2>
-        <ul>
-            <li><a href="https://docs.github.com/pages" target="_blank">GitHub Pages Documentation</a></li>
-            <li><a href="https://huggingface.co/docs/hub/spaces" target="_blank">Hugging Face Spaces Documentation</a></li>
-            <li><a href="https://github.com/Harshith-reddy-td/hf-space-site" target="_blank">This Repository</a></li>
-        </ul>
-    </div>
+    <iframe src="https://huggingface.co/spaces/IFMedTechdemo/Text2Audio" title="Text2Audio Hugging Face Space"></iframe>
 </body>
 </html>
